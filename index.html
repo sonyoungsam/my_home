@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>자기소개</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="avatar-ring">
+      <img id="photo" class="photo" src="" alt="프로필 사진" />
+    </div>
+    <h1 id="name"></h1>
+    <p id="tagline" class="tagline"></p>
+    <ul id="contact" class="contact"></ul>
+  </header>
+
+  <main class="container">
+    <section class="block">
+      <h2><span class="icon">💼</span>경력</h2>
+      <ul id="career" class="timeline"></ul>
+    </section>
+
+    <section class="block">
+      <h2><span class="icon">🎓</span>학력</h2>
+      <ul id="education" class="timeline"></ul>
+    </section>
+  </main>
+
+  <script src="data/profile.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
